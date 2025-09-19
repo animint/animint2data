@@ -11,7 +11,7 @@ rm -rf $RELEASE
 cp -r $PKG $RELEASE
 
 echo Editing $RELEASE
-rm $RELEASE/inst/translate.R
+rm $RELEASE/inst/download.R
 
 echo Building $RELEASE
 RCMD="R --vanilla CMD"
