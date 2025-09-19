@@ -1,6 +1,6 @@
 Package: animint2data
 Type: Package
-Title: Data For Animint2
+Title: Data for Animint2
 Version: 2025.9.19
 Authors@R: c(
     person("Toby", "Hocking",
