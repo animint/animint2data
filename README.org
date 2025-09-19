@@ -1,0 +1,1 @@
+Data sets for use in [[https://animint-manual-en.netlify.app/][Animated interactive data visualization using animint2 in R]]
