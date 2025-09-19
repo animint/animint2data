@@ -13,7 +13,7 @@ for(data.url in data.url.vec){
     data_is_csv <- parsed$suffix=="data"
     download.file(data.url, dest.RData, mode=if(data_is_csv)"w" else "wb")
     objs <- if(data_is_csv){
-      assign(parsed$name, fread(dest.RData))
+      assign(parsed$name, as.data.table(read.table(dest.RData)))
       parsed$name
     }else{
       load(dest.RData)
