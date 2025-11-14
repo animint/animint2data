@@ -16,7 +16,7 @@ Results from a benchmark using mlr3.
 }
 \examples{
 
-if(requireNamespace("mlr3torch")){
+if(requireNamespace("mlr3torch")&&requireNamespace("mlr3tuning")&&requireNamespace("mlr3learners")){
   
   data(bench.result, package="animint2data")
   score_dt <- bench.result$score()
